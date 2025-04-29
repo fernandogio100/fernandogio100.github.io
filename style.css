@@ -1,0 +1,45 @@
+body {
+    margin: 5px;
+    padding: 0;
+    background-color: rgb(172, 237, 179);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 10vw;
+}
+
+.block {
+    height: 100px;
+    width: 20vw;
+}
+
+.middleBlock {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.secondBlock {
+    height: 100px;
+    width: 5vw;
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#copyNumber, #copyName {
+    min-width: 100px;
+    background-color: white;
+    border: black solid thin;
+    height: auto;
+    min-height: 200px;
+    padding: 5px;
+}

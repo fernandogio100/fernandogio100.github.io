@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Magallanes website">
+    <title>Trabajo Magallanes</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Convertidor de texto</h1>
+    <div class="row">
+        <div class="block">
+            <textarea name="input" id="mainInput" rows="20" cols="45" placeholder="Flojo"></textarea>
+        </div>
+        <div class="middleBlock">
+            <input type="button" name="generate" id="generateBlocks" value="Generate" onclick="getInformation()">
+            <input type="button" name="copyFirstBlock" id="copyFirstBlock" value="Copy Name" onclick="getName()">
+            <input type="button" name="copySecondBlock" id="copySecondBlock" value="Copy Numbers" onclick="getNumber()">
+        </div>
+        <div class="block">
+            <textarea name="copyName" id="copyName" rows="20" cols="45"></textarea>
+        </div>
+        <div class="secondBlock"></div>
+        <div class="block">
+            <textarea name="copyNumber" id="copyNumber" rows="20" cols="45"></textarea>
+        </div>
+    </div>
+
+
+    <script src="trabajo.js"></script>
+</body>
+
+</html>
